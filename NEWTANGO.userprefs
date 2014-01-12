@@ -1,8 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mystuff\spinme.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mystuff\roam.cs">
     <Files>
-      <File FileName="Assets\mystuff\spinme.cs" Line="6" Column="31" />
+      <File FileName="Assets\mystuff\shooter.cs" Line="17" Column="10" />
+      <File FileName="Assets\mystuff\playerShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\mystuff\roam.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UDTUIView.cs" Line="22" Column="46" />
+      <File FileName="Assets\Scripts\UDTUIEventHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\mystuff\tidy.cs" Line="8" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
