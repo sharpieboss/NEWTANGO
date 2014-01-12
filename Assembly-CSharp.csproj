@@ -87,11 +87,14 @@
      <Compile Include="Assets\Scripts\UIFramework\UIRect.cs" />
      <Compile Include="Assets\Scripts\UIFramework\UIView.cs" />
      <Compile Include="Assets\Scripts\UserDefinedTargetEventHandler.cs" />
-     <Compile Include="Assets\mystuff\playerShoot.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\mystuff\World_got_hit.cs" />
+     <Compile Include="Assets\mystuff\hit_detection.cs" />
      <Compile Include="Assets\mystuff\roam.cs" />
      <Compile Include="Assets\mystuff\shooter.cs" />
      <Compile Include="Assets\mystuff\spinme.cs" />
      <Compile Include="Assets\mystuff\tidy.cs" />
+     <Compile Include="Assets\tank_got_hit.cs" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\license_3rdpartynotice.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />

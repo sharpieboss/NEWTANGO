@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 public class shooter : MonoBehaviour
 {
     public Rigidbody projectile;
     public Transform shotPos;
     public float shotForce = 1000f;
     public float moveSpeed = 10f;
+	
+	public AudioClip GunSound;
     
     
     void Update ()
@@ -20,6 +24,8 @@ public class shooter : MonoBehaviour
         {
             Rigidbody shot = Instantiate(projectile, shotPos.position, shotPos.rotation) as Rigidbody;
             shot.AddForce(shotPos.forward * shotForce);
+			
+			audio.PlayOneShot(GunSound);
         }
     }
 }

@@ -55,14 +55,18 @@ public class AppManager : MonoBehaviour {
         m_UIEventHandler.UpdateView(false);
         switch(mActiveViewType)
         {
+			
             case ViewType.SPLASHVIEW:
-                mSplashView.UpdateUI(true);
+                mSplashView.UpdateUI(false);
                 break;
             
+            
+			
             case ViewType.ABOUTVIEW:
                 mAboutView.UpdateUI(true);
                 break;
             
+			
             case ViewType.UIVIEW:
                 m_UIEventHandler.UpdateView(true);
                 break;
@@ -87,19 +91,23 @@ public class AppManager : MonoBehaviour {
     
     private void OnSingleTapped()
     {
+		/*
         if(mActiveViewType == ViewType.ARCAMERAVIEW )
         {
             // trigger focus once
             m_UIEventHandler.TriggerAutoFocus();
         }
+        */
     }
     
     private void OnDoubleTapped()
     {
+		/*
         if(mActiveViewType == ViewType.ARCAMERAVIEW)
         {
             mActiveViewType = ViewType.UIVIEW;
         }
+        */
     }
     
     private void OnTappedOnGoToAboutPage()
