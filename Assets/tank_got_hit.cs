@@ -11,6 +11,7 @@ public class tank_got_hit : MonoBehaviour {
 	public float speed = 2f;
 	private bool dead = false;
 	public AudioClip deathsound;
+	private float time_for_revive = 30f; 
  
     // Use this for initialization
     void Start () {
@@ -28,11 +29,20 @@ public class tank_got_hit : MonoBehaviour {
 			dead = true;
 			
 			audio.PlayOneShot(deathsound);
+			
+			time_for_revive = Time.time + 30f;
+			
+			
 			//Destroy(gameObject);
 		}
 		if( !dead )
 		{
 			transform.RotateAround(Vector3.zero, Vector3.up, speed * Time.deltaTime);
+		}
+		else if ( Time.time > time_for_revive)
+		{
+			health = 5;
+			dead = false;
 		}
 
     }
